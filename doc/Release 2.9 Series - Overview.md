@@ -159,7 +159,7 @@ RC6 fixes some security issues within yokozuna, and completes a full run through
 
 #### Release 2.9.0 RC7
 
-A customer volume test revealed that the beam would not fully garbage collect memory held by leveled_sst file processes within leveled (leaving 4MB of unlinked memory associated with the process), in some circumstances.  This is similar to the problem partially-resolved in RC5.  A more comprehensive fix has now been added for RC7, with a process-specific GC call now made each time a non-L0 file transitions to the read state, and stays in that state for more thna 10s.
+A customer volume test revealed that the beam would not fully garbage collect memory held by leveled_sst file processes within leveled (leaving 4MB of unlinked memory associated with the process), in some circumstances.  This is similar to the problem partially-resolved in RC5.  A more comprehensive fix has now been added for RC7, with a process-specific GC call now made each time a non-L0 file transitions to the read state, and stays in that state for more than 10s.
 
 #### Transition Configuration Guidance
 
