@@ -150,7 +150,7 @@
                        "4069870cbeb5e7cc6a4a46b24ce0bde42fcbdd3f"}},
        {riak_kv,".*",
                 {git,"git://github.com/martinsumner/riak_kv.git",
-                     "dd0004092813b3250a39066bdb53288293eae997"}},
+                     "57eb2cb000d435c85f54af7bfc98fc9103a1fe39"}},
        {erlydtl,".*",
                 {git,"git://github.com/erlydtl/erlydtl.git",
                      "d20b53f04837a1053ed18987f645cb60eae82453"}},
